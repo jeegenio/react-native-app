@@ -14,7 +14,7 @@ const CounterScreen = () => {
         title="Decrease"
         onPress={() => setCounter((prevCounter) => prevCounter - 1)}
       />
-      <Text>Current Counts: {counter}</Text>
+      <Text>Current Counters: {counter}</Text>
     </View>
   );
 };
